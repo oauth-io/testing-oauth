@@ -41,7 +41,7 @@ This app must be configured in your [key-manager](https://oauth.io/key-manager)t
 
 Once that is done, you can copy the app's public key in your `config.local.js`file :
 
-```json
+```javascript
 module.exports = {
     ...
     app_key: 'your_app_key',
@@ -53,7 +53,7 @@ module.exports = {
 
 Then you need to add your linkedin credentials (or those of a test account) in your `config.local.js` :
 
-```json
+```javascript
 module.exports = {
     ...
     linkedin_account: {
