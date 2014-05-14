@@ -3,6 +3,31 @@ Testing OAuth with CasperJs
 
 This project is a proof of concept that uses [OAuth.io](https://oauth.io) and [CasperJs](http://casperjs.org/) to test the OAuth flow of Linkedin functionnaly, from the end-user point of vue.
 
+Dependencies
+------------
+
+For the project to work, you need to install [PhantomJs](http://phantomjs.org) and [CasperJs](http://casperjs.org). 
+
+**PhantomJs**
+
+To install PhantomJs, just get the binary from the [PhantomJs download page](http://phantomjs.org/download.html), and link it as `phantomjs` in your PATH.
+
+**CasperJs**
+
+To install [CasperJs](http://docs.casperjs.org/en/latest/installation.html#installing-from-npm), just run the following command in your console (note that CasperJs is available through npm, but is not a Nodejs module).
+
+```sh
+$ npm install -g casperjs
+```
+
+**Other dependencies**
+
+Before running the testsuite don't forget to run :
+
+```sh
+$ npm install
+```
+
 Configuration
 -------------
 
@@ -39,14 +64,6 @@ module.exports = {
 };
 ```
 
-Installing dependencies
------------------------
-
-Before running the testsuite don't forget to install the dependencies (the server is based on express.js) :
-
-```sh
-$ npm install
-```
 
 Launching the test suite
 ------------------------
@@ -74,3 +91,8 @@ You can pass the `--verbose` argument to get more info about what's going on :
 $ node index.js --verbose
 ```
 
+
+License
+-------
+
+This example project is licensed under the Apache2 license.
