@@ -1,0 +1,11 @@
+{
+  "name": "casperjs-oauth-tutorial",
+  "version": "0.0.0",
+  "description": "This tutorial shows how to use CasperJS to test an OAuth flow.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antoine Jakckson (oauth.io)",
+  "license": "Apache2"
+}
